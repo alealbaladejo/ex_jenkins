@@ -1,5 +1,5 @@
 FROM python:alpine
-COPY app /usr/share/app
+COPY flask-app/app /usr/share/app
 WORKDIR /usr/share/app
 RUN pip install --no-cache-dir -r requirements.txt
 ENV NOMBRE xxx
