@@ -5,7 +5,7 @@ pipeline {
         SSH_CRED = 'vps-ssh-credentials'  
         VPS_USER = 'debian'
         VPS_HOST = '54.38.183.131'
-        VPS_DIR = '/home/debian/examen_jenkins'
+        VPS_DIR = '/home/debian/ex_jenkins'
 	NOMBRE = 'AleAlbalñadejo'
     }
 
