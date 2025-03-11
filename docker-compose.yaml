@@ -2,8 +2,8 @@ version: "3.8"
 
 services:
   flask-app:
-    image: mi-flask-app  # Usa el nombre de la imagen que creaste
-    container_name: alealbaladejo/jenkins_ex:latest
+    image: alealbaladejo/jenkins_ex:latest  # Usa el nombre de la imagen que creaste
+    container_name: flask-app
     ports:
       - "5002:5002"  # Mapea el puerto del contenedor al host
     environment:
