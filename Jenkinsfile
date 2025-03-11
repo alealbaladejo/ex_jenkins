@@ -78,7 +78,7 @@ pipeline {
             emailext(
                 to: 'alealbaladejo29s@gmail.com',
                 subject: "Pipeline IC: ${currentBuild.fullDisplayName}",
-                body: "${env.NOMBRE}, {currentBuild.result}"
+                body: "${env.NOMBRE}, ${currentBuild.result}"
             )
         }
     }
